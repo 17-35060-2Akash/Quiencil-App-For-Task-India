@@ -16,7 +16,13 @@ const TopBanner = () => {
                 <div className='flex-start'>
                     <img src={computer} alt='' className="rounded-lg banner-img" />
                 </div>
-                <div className='text-center md:text-start md:mt-32'>
+                <div
+                    // data-aos="zoom-in-left"
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+
+                    className='text-center md:text-start md:mt-32'>
                     <div className='flex  justify-center'>
                         <h1 className="text-2xl md:text-4xl font-semibold mb-3 ">Learn all IT Courses <br /> from IT Experts </h1>
                     </div>

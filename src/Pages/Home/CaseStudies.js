@@ -16,7 +16,9 @@ const CaseStudies = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-32 gap-y-0 md:gap-10 md:gap-y-0  lg:gap-32 lg:gap-y-0 md:px-10 lg:px-32'>
                     {/* cards start  */}
                     {/* card - 1 */}
-                    <div className="card">
+                    <div className="card"
+                        data-aos="zoom-in-right"
+                    >
                         <figure className="px-10 pt-10">
                             <img src={img1} alt="Shoes" className="rounded-xl" />
                         </figure>
@@ -35,7 +37,9 @@ const CaseStudies = () => {
                     </div>
 
                     {/* card - 2 */}
-                    <div className="card">
+                    <div className="card"
+                        data-aos="zoom-in-right"
+                    >
                         <figure className="px-10 pt-10">
                             <img src={img2} alt="Shoes" className="rounded-xl" />
                         </figure>
@@ -54,7 +58,9 @@ const CaseStudies = () => {
                     </div>
 
                     {/* card - 3 */}
-                    <div className="card">
+                    <div className="card"
+                        data-aos="zoom-in-right"
+                    >
                         <figure className="px-10 pt-10">
                             <img src={img3} alt="Shoes" className="rounded-xl" />
                         </figure>
@@ -73,7 +79,9 @@ const CaseStudies = () => {
                         </div>
                     </div>
                     {/* card - 4 */}
-                    <div className="card">
+                    <div className="card"
+                        data-aos="zoom-in-right"
+                    >
                         <figure className="px-10 pt-10">
                             <img src={img4} alt="Shoes" className="rounded-xl" />
                         </figure>
@@ -94,7 +102,9 @@ const CaseStudies = () => {
                         </div>
                     </div>
                     {/* card - 5 */}
-                    <div className="card">
+                    <div className="card"
+                        data-aos="zoom-in-right"
+                    >
                         <figure className="px-10 pt-10">
                             <img src={img5} alt="Shoes" className="rounded-xl" />
                         </figure>

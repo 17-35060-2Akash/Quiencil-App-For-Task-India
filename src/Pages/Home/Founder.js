@@ -7,7 +7,11 @@ const Founder = () => {
             <div className="hero bg-[#013574] py-20 px-12 md:px-20 lg:px-12">
                 <div className="hero-content flex-col lg:flex-row-reverse border border-white border-dashed p-10 py-12 rounded-md">
                     <img src={frame} className=" rounded-lg shadow-2xl" alt='' />
-                    <div className='text-start md:pr-16 pr-0 pt-20 lg:pt-0'>
+                    <div className='text-start md:pr-16 pr-0 pt-20 lg:pt-0'
+                        data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
+                    >
                         <h1 className="text-4xl font-semibold ">Meet Our Founder</h1>
                         <p className="py-4">Our Founder Mr.Kunal Sharma has designed and delivered the Quencil Java Full Stack Developer(JFSD)
                             course, which is a 1000+ hour comprehensive, intensive, uimmersive, Educational based 360° Skills program and is a full one-stop solution to pursue your IT professional goals.</p>
